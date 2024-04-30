@@ -3,10 +3,10 @@
 
 # WARNING: Running scripts from the Internet as root can be hazardous. Please inspect the script before running it.
 # To run this script, login as root via SSH and run the following command:
-# bash <(curl -Ls https://gist.githubusercontent.com/mhhh0/3eecb3a693f76d95e2c1f649380ea35b/raw/e5843caea55fb99e86fb555df0a20a3f17bfca60/IrDockerInstaller.sh)
+# bash <(curl -Ls https://raw.githubusercontent.com/mhhh0/IrDkI/main/IrDockerInstaller.sh)
 
 # Define the URL of the Gist containing the Docker installation script
-# GIST_URL="https://gist.githubusercontent.com/mhhh0/3eecb3a693f76d95e2c1f649380ea35b/raw/e5843caea55fb99e86fb555df0a20a3f17bfca60/IrDockerInstaller.sh"
+GIST_URL="https://raw.githubusercontent.com/mhhh0/IrDkI/main/IrDockerInstaller.sh"
 
 # Download the Docker installation script from the GitHub Gist
 curl -L $GIST_URL -o install_docker.sh
